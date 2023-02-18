@@ -1,18 +1,19 @@
-# WiiBrator2
+# JoyBrator
 
- A tool that makes the Wii remote endlessly vibrate
+ A tool that makes the Joy-Con (HAC-016) endlessly vibrate
 
 ## Building
 
-Using the provided Makefile, just run `make`. This is assuming you have devKitPPC installed.
+Using the provided Makefile, just run `make`. This is assuming you have devKitNX installed.
 
 ## Controls
 
-| Wii Button | GC Button | Usage            |
-| :--------- | :-------- | :--------------- |
-| `A`        | `A`       | Toggle rumble    |
-| `B`        | `B`       | Toggle pulse     |
-| `Home`     | `Start`   | Exit application |
+| Controls   | Usage            |
+| :--------- | :--------------- |
+| `A`        | Toggle rumble    |
+| `B`        | Toggle pulse     |
+| `+`        | Toggle pulse     |
+| `Home`     | Exit application |
 
 Third-Party GameCube controllers are confirmed to work.
 
@@ -26,10 +27,6 @@ will wear out the motor.
 
 ## Credits
 
-[MethodOrMadness](https://github.com/MethodOrMadness) - Cleaning up the Makefile and creating automatic packaging.
-
 TeamDwiildo - Original inspiration for this project.
 
-[Larsenv](https://github.com/Larsenv) - Assisting with the creation of this project and motivation.
-
-[cat](https://twitter.com/CookieAndEllie) - Help for testing the GameCube controller compatibility.
+[UntitledOutput](https://twitter.com/UntitledOutput) - Giving me motivation to work on this
