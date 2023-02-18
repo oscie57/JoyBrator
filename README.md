@@ -1,6 +1,9 @@
 # JoyBrator
 
  A tool that makes the Joy-Con endlessly vibrate
+ 
+ ![image](https://user-images.githubusercontent.com/66192059/219843891-ab14272d-3588-4119-b679-001ff8683d3d.png)
+
 
 ## Building
 
